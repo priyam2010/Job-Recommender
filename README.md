@@ -13,20 +13,20 @@ It uses LangChain and Google Gemini API with a Retrieval-Augmented Generation (R
 4. Streamlit UI – Clean, interactive, and easy to use.
 
 ## How to Run
-### Install Dependencies
+### 1.Install Dependencies
 Make sure Python 3.10+ is installed.
 
 Install dependencies.
 
-### Set Environment Variables 
+### 2.Set Environment Variables 
 Sign up for Google AI Studio and get your Gemini API key.
 
 Store it in an environment variable.
-###  Prepare Your Files
+### 3.Prepare Your Files
 Save your backend logic (LangChain + Gemini RAG) in one Python file (e.g., rag_pipeline.py).
 
 Create your Streamlit UI file (e.g., app.py) to interact with the backend.
-### Run the App
+### 4.Run the App
 
 In your project folder, run:
 
